@@ -14,16 +14,18 @@ Creates a web platform to interact with the webserver
 # =============================================================================
 # Imports
 # =============================================================================
-
+import pandas as pd
+import numpy as np
 import helper_dami_homework
 
 import dash
 from dash.dependencies import Input, Output, State
 
 from pathlib import Path
-import numpy as np
-import pandas as pd
+
+
 import pickle
+
 
 # =============================================================================
 # Main

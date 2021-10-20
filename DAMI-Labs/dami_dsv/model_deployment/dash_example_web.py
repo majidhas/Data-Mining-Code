@@ -13,14 +13,15 @@ Creates a web platform to interact with the webserver
 # Imports
 # =============================================================================
 
+import numpy as np
+import pandas as pd
 import helper_dash_example
 
 import dash
 from dash.dependencies import Input, Output, State
 
 from pathlib import Path
-import numpy as np
-import pandas as pd
+
 import pickle
 
 # =============================================================================
